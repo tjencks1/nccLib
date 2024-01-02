@@ -1,0 +1,109 @@
+
+<md-content layout-xs="column" layout="row"> <!-- updated 12/7/2022 --> 
+    <div flex="40" layout="column">
+	    <md-card class="default-card"> <!-- Get Help Card --> 
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Where can I get help?</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+			<ul>
+               <li>To ask a question, visit Oesterle Library's <a href="https://noctrl.libguides.com/contact"> Contact page</a></li>
+			   <li>For location, hours, and policies, visit Oesterle Library's <a href="https://library.noctrl.edu/about-library"> About page</a></li>
+			   <li>To chat with a librarian, either use the chat box in the bottom-right corner of your screen or please <a href="http://libraryh3lp.com/chat/oesterle-library-queue@chat.libraryh3lp.com?skin=35713&sounds=1">click Here to Chat with a Librarian</a></li>
+			   <p>Contact Oesterle Library</p>
+               <li>Phone: <a href="tel:630-637-5700">630-637-5700</a></li>
+               <li>E-mail: <a href="mailto:library@noctrl.edu">library@noctrl.edu</a></li>
+               <li><a href="https://library.noctrl.edu/staff-directory">View Staff Directory</a></li>
+            </ul>
+            </md-card-content>
+        </md-card>
+		
+		<!-- My Library Account Card -->	
+        <md-card class="default-card">  
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">My Library Account</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content> 
+                <p>
+                   Sign in to:
+                </p>
+                <ul>
+                    <li>View full search results. Some databases only show results when you're signed in</li>
+                    <li>View and renew loaned items</li>
+                    <li>Make and view I-Share requests</li>
+                    <li>Save items and searches</li>
+					<li>You can login to your account in the top-right corner or by <a href="https://i-share-ncc.primo.exlibrisgroup.com/discovery/account?vid=01CARLI_NCC:CARLI_NCC&section=overview&lang=en">clicking here</a></li>
+                </ul>
+            </md-card-content>
+        </md-card>
+		
+    </div>
+	
+    <div flex-xs flex="60" layout="column">
+        
+		<!-- Search Explenation Card --> 
+		<md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">What am I searching?</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>Focus your searching using one of the following choices:
+                </p>
+                <ul>
+                <li><b> Articles, Books, and More:</b> A good place to start your research. It searches a broad range of our resources: print books, ebooks, most articles, scores, audio and video recordings, images, and repositories.</li>
+                <li><b>Oesterle Library Books and More:</b> Books, audio and video recordings, scores, journals, and more in physical and electronic formats in Oesterle Library's collection.</li>
+                <li><b>All I-Share Libraries:</b> Books, audio and video recordings, scores, and journals owned by I-Share Libraries (90+ academic and research libraries in Illinois).</li>
+                <li><b>Course Reserves:</b> Physical materials held on reserve at Oesterle Library for North Central courses.</li>
+                <li><b>Cardinal Textbooks:</b> Our textbook collection held on reserve at Oesterle Library.</li>
+				<li><b>Curriculum Collection:</b> A collection of books aimed for educators to use in the classroom or for their own growth.</li>
+               </ul>
+            </md-card-content>
+        </md-card>
+		
+		<!-- Hours -->
+	<!--
+		<md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Library Hours</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <head>
+                <meta name="viewport" content="width=device=width, initial-scale-1">
+                <style>
+                    *{
+                    box-sizing: border-box;
+                    }
+                    .column {
+                        float: left;
+                        width: 50%;
+                        padding: 10px;
+                    }
+                    .row:after {
+                        content:"";
+                        display: table;
+                        clear: both;
+                    }
+                    @media screen and (max-width: 600px){
+                        .column {
+                            width: 100%;
+                        }
+                    }
+                    </style>
+                </head>
+                <body>
+					<div id="hours-results"></div>
+					<div class="arrows"><button alt="left arrow" aria-hidden="true" class="glyphicon glyphicon-arrow-left pull-left left-arrow" id="left_arrow" title="View Previous Week's Hours" type="button"><svg class="svg-inline--fa fa-arrow-circle-left fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="arrow-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zm28.9-143.6L209.4 288H392c13.3 0 24-10.7 24-24v-16c0-13.3-10.7-24-24-24H209.4l75.5-72.4c9.7-9.3 9.9-24.8.4-34.3l-11-10.9c-9.4-9.4-24.6-9.4-33.9 0L107.7 239c-9.4 9.4-9.4 24.6 0 33.9l132.7 132.7c9.4 9.4 24.6 9.4 33.9 0l11-10.9c9.5-9.5 9.3-25-.4-34.3z"></path></svg>&nbsp; &nbsp; &nbsp;<button alt="right arrow" aria-hidden="true" class="glyphicon glyphicon-arrow-right pull-right right-arrow" id="right_arrow" title="View Next Week's Hours"><svg class="svg-inline--fa fa-arrow-circle-right fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="arrow-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path></svg></button></div>
+                </body>
+            </md-card-content>
+        </md-card>
+	-->
+    </div>
+</md-content>

@@ -1,0 +1,3 @@
+{"prm-search-bar-after":[],
+"prm-service-links-after":["report-bug-primo-studio"],
+"prm-tree-nav-after":["primo-explore-filter-data-base-by-category-search"]}
