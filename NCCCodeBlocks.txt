@@ -1,0 +1,36 @@
+Image
+
+<class="img-responsive img-thumbnail img-circle img-rounded" src="#" alt="Alt Text">
+
+    Assign the following attributes to decorative images and videos
+        class="hidden-xs"
+        aria-hidden="true"
+        role="presentation"
+        alt=""
+    Place decorative images where screen readers skip unnecessary information (e.g. unnecessary headings) by:
+        Placing decorative images within the content of other boxes using floats or,
+        Creating a floating box for the image
+    Describe all relevant content and context contained within images/screenshots that communicates meaning for accessibility purposes
+        Use alternative text
+    Consider all copyright and licensing requirements, even for open source materials
+    Consider the image size in consideration of users with slow internet speeds and mobile data limits
+        Images should be less the 2mbs
+		
+		
+Video
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" title="How to paraphrase" src="https://www.youtube.com/embed/oTsE-LRSo_M" allowfullscreen></iframe>
+</div>
+
+or
+
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" title="How to paraphrase" src="https://www.youtube.com/embed/oTsE-LRSo_M" allowfullscreen></iframe>
+</div>
+
+Quotes
+
+<blockquote>Text.
+  <footer>Person</footer>
+</blockquote>

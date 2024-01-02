@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+
+
+
+
+<container>
+	<row>
+	<a #logo# class="navbar-brand navbar-link">
+			<a class="navbar-brand nav-link" href="https://www.wtamu.edu/" title="WTAMU Homepage">
+				#Image#
+				<span class="visually-hidden">West Texas A&amp;M University</span>
+			</a>
+	</a>
+	<button ## class="navbar-toggler" type="button">
+	
+	</button>
+	
+	<div ##>
+	
+	</div>
+	</row>
+</container>
+
+
+
+
+
+<nav class="navbar  navbar-nav s-lib-header s-lib-side-borders" >
+
+
+
+
+
+
+
+
+<div class="container-fluid" style="background-color: #b20818;">
+<!--
+	<div class="row">
+		<div class="container-fluid">
+			<h1 class="NCC_Notification justify-content-center">
+				<span class="glyphicon glyphicon-exclamation-sign"></span>
+				Message
+				<span class="glyphicon glyphicon-exclamation-sign"></span>
+			</h1>
+		</div>
+	</div>
+-->
+	<div class="row">
+		<a class="navbar-brand" href="http://library.noctrl.edu">
+			<img class="headLogo" src="https://library.noctrl.edu/themes/spark451/ncc/images/mobile-header-logo.png"/>
+		</a>
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-label="Toggle navigation menu" aria-controls="nav" aria-expanded="false">
+				<span class="sr-only">Toggle navigation menu</span>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>	
+		<div class="collapse navbar-collapse" id="nav">
+			<ul>
+				<div class="nav-item dropdown">
+					<a href="#" class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><h5 class="dropdown-header" id="dropdownCategory">Staff</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/directory">Staff Directory</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/liaisons">Liaisons</a></li>							
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Library Information</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/index#s-lib-ctab-31907498-3">Something</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/index#s-lib-ctab-31907498-2">Collections</a></li>
+			<!--			<li><a class="dropdown-item" href="/library/about-us/index.shtml#forms-pane">Forms</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="/library/about-us/index.shtml#get-pane">Get Involved</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="/library/about-us/index.shtml#jobs-pane">Jobs</a></li>
+			-->				<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/index#s-lib-ctab-31907498-1">Mission</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/policies">Policies</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/index#s-lib-ctab-31907498-4">Visiting</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/about/index#s-lib-ctab-31907498-0">Welcome to the Library</a></li>
+					</ul>
+				</div>	
+				<div class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collections <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><h5 class="dropdown-header" id="dropdownCategory">By Group</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="/library/services/students.shtml">Students</a></li>
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Displays</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/currentDisplays">Current Displays</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/pastDisplays">Past Displays</a></li>
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Archives</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/archives" target="_blank" rel="noopener">Special Collections</a></li>
+					</ul>				
+				</div>	
+				<div class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Book A Room <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libcal.com/spaces" target="_blank" rel="noopener">Students</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="" target="_blank" rel="noopener">Faculty &amp; Staff</a></li>
+					</ul>				
+				</div>	
+				<div class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/services/students">Students</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/services/facstaff ">Faculty &amp; Staff</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/services/community">Community</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://4434.account.worldcat.org/profile" target="_blank" rel="noopener">Interlibrary Loan Request</a></li>
+					</ul>				
+				</div>	
+				<div class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Find <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><h5 class="dropdown-header" id="dropdownCategory">Guides</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/">Course Guides</a></li> <!--
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/">Subject Guides</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/">Tutorials</a></li> -->
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Format</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/articles">Articles</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/books">Books</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libapps.com/libguides/az.php" target="_blank" rel="noopener">Databases A-Z</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/theses">Dissertations/Theses</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://i-share-ncc.primo.exlibrisgroup.com/discovery/jsearch?vid=01CARLI_NCC%3ACARLI_NCC" target="_blank" rel="noopener">Journals Titles</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://noctrl.libguides.com/collections/reserves ">Reserves</a></li>
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Special Collections</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="#">Place Filler</a></li>
+					</ul>				
+				</div>
+				<div class="nav-item dropdown">
+					<a class="dropdown-toggle nav-link navLink" id="NavCategory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+					<ul class="dropdown-menu dropBar">
+						<li><a class="dropdown-item" id="dropdownText" href="/library/help/index.shtml">Get Help</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://wtamu.libanswers.com/">FAQs</a></li>
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Contact Us</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://wtamu.libcal.com/appointments/library" target="_blank" rel="noopener"><span class="bi bi-calendar-plus-fill"></span> Make an Appointment</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://wtamu.libanswers.com/form?queue_id=2831" target="_blank" rel="noopener"><span class="bi bi-envelope-fill"></span> Email a Librarian</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="tel:18066512215"><span class="bi bi-telephone-fill"></span><span class="visually-hidden">Phone:</span> (806) 651-2215</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="sms:18069944227"><span class="bi bi-chat-right-text-fill"></span><span class="visually-hidden">Text:</span> (806) 994-4227</a></li>
+						<li><hr class="dropdown-divider dropDiv"></li>
+						<li><h5 class="dropdown-header" id="dropdownCategory">Citation</h5></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://apastyle.apa.org/style-grammar-guidelines">APA 7<sup>th</sup></a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="/library/help/cite-it-mla.shtml">MLA</a></li>
+						<li><a class="dropdown-item" id="dropdownText" href="https://login.databases.wtamu.edu/login?url=http://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago (Turabian)</a></li>
+					</ul>				
+				</div>
+			</ul>
+			<ul class="navbar-nav ms-auto d-print-none navTopRight">
+				<a class="btn navOpen" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Open Menu" data-original-title="Open Menu" href="https://noctrl.libguides.com/open-menu">Open Menu</a>
+				<a class="btn text-white navIcon" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Wi-Fi" data-original-title="Wi-Fi" href="https://noctrl.libguides.com/FAQ/index!" role="button"><i class="fa fa-wifi fa-fw"></i></a>
+				<a class="btn text-white navIcon" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Printing" data-original-title="Printing" href="https://noctrl.libguides.com/FAQ/index!" role="button"><i class="fa fa-print fa-fw"></i></a>
+				<a class="btn text-white navIcon" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Library Account" data-original-title="Library Account" href="https://noctrl.libguides.com/FAQ/index" role="button"><i class="fa fa-address-card fa-fw"></i></a>
+				<a class="btn text-white navIcon" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Library Events" data-original-title="Library Events" href="https://noctrl.libguides.com/FAQ/index" role="button"><i class="fa fa-calendar fa-fw"></i></a>
+				<a class="btn text-white navIcon" data-mdb-ripple-init data-toggle="tooltip" data-placement="bottom" title="Library Hours" data-original-title="Library Hours" href="https://noctrl.libguides.com/FAQ/index" role="button"><span class="glyphicon glyphicon-time"></span></a>
+			</ul>
+		</div>
+	</div>
+</div>
+			
+			
+			
+
+		</div>
+		<div class="collapse navbar-collapse" id="basic1">
+			<ul class="">
+				
+			</ul>
+		</div>
+	</div>
+	<div class="row justify-content-end">
+
+<!-- Add hover over effect for buttons, figure out orientation of elements -->	
+		<ul class="navbar-nav">
+			<div class="navbarContainer ">
+			
+
+					
+			
+			
+			
+			
+			
+			</div>
+		</ul>
+
+	</div>
+</div>
+</nav>
+
+
+
+
+
+
+
+</html>

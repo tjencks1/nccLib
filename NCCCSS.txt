@@ -1,0 +1,535 @@
+<style>
+/* Temp CSS */
+#customHead {clear:both; background-color: #b20818;} 
+
+/* Broken CSS */
+.headLogo {display: block; border-style: none; width: 60%; max-width: 60%;}
+
+/* Header CSS */
+.NCCHeader {height: 100;}
+/* Notification CSS */
+.NCC_Notification {background-color: #000000; color:#ffffff; text-align: center; font-size: 5em; font-family: Georgia, Times, "Times New Roman", serif; font-weight: bold;}
+/* Logo CSS */
+/* General SpringShare CSS */
+.s-lib-profile-name {font-size: 1.5em;}
+#s-lg-guide-name {font-weight: bold; font-size: 1.8em; font-family: Georgia, Times, "Times New Roman", serif;}
+.s-lib-box-title, #s-lg-guide-tabs{font-weight: normal; font-size: 14px; font-family: Georgia, Times, "Times New Roman", serif;}
+#s-lg-guide-description {display: none;}
+#s-lib-bc-site {display: none;}
+/* Header CSS */
+.navCenter {}
+.navTopRight {padding: 5px; margin-left: auto; color: #ffffff; list-style-type: none;}
+.navTopRight a:hover {padding: 5px; background: #8c1723; color: #ffffff; border-style: none;}
+.navTopRight a:visited {padding: 5px; background: #8c1723; color: #ffffff; border-style: none;}
+.navIcon {padding: 5px; color: #ffffff;}
+.navHeading {color: #ffffff; font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; }
+/* Header Dropdown CSS */
+.navLink {list-style-type: none; padding: 15px; float: right; margin-left: auto; font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; color: #ffffff;}
+.navLink a:hover {list-style-type: none; padding: 15px; float: right; margin-left: auto; font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; color: #ffffff; background: #8c1723;}
+.navLink a:link {list-style-type: none; padding: 15px; float: right; margin-left: auto; font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; color: #ffffff;}
+.dropBar {margin: 0px 0px 0px; float: right; padding: 15px; border: 5px solid #b20818; background: #ffffff;}
+.dropText {color: #b20818;}
+.dropText a: hover{color: #b20818;}
+.dropDiv {border-color: #b20818; border-width: 3px;}
+.dropCat {color: #b20818; font-size: 2em; font-family: Georgia, Times, "Times New Roman", serif; font-weight: bold;}
+
+.dropName { margin: ; padding: ;}
+
+/* Dropdown Label CSS */
+.navbarContainer {display: flex; flex-direction: row-reverse;}
+.navbarStyle {color: #ffffff;}
+
+
+/* navLink */
+
+/* Maybe? */
+.dropName {}
+.headNav {padding-right: 10px; list-style-type: none; overflow: hidden; border-style: none; float: center; color: #ffffff;}
+.headNav a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.headNav a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.headNav a:hover {text-decoration: none; background: #8c1723; border-style: none;}
+.navHeader li a {padding: 15px; font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; color: white;}
+#navDropdown {color: #ffffff; margin-left: auto;}
+#navDropdownName {color: #ffffff; margin-left: auto;}
+
+/* dropItem */
+
+/* dropItem */
+
+text {}
+header {}
+
+/* Dropdown Box */
+
+
+/* Accordion Box */
+
+/* iFrame Box */
+
+/* Content CSS */
+
+/* Content CSS */
+
+/* Content CSS */
+
+/* Content CSS */
+
+/* Content CSS */
+
+font-family: serif;
+font-family: sans-serif;
+roundBorders {border: 5px solid red; border-radius: 8px; padding: 2px;}
+NCCAccordion {}
+NCCTable {}
+NCCItemTitle {}
+NCCItemSubtitle {}w
+NCCCaption {}
+NCCLink {}
+NCCImage {}
+NCCList {}
+NCCTooltip {}
+NCCCard {}
+NCCText {}
+NCCHeader {}
+NCCDivider {}
+NCCVTable {}
+
+NCCGroup {}
+NCCDropdown {}
+NCCNavbar {}
+NCCTab {}
+
+/* navLink */
+.navRight {justify-content: flex-end;}
+
+for boxes
+margin: 0px 15px;
+padding: 0px 15px;
+
+justify-items: right;
+caret-color: red;
+font-family: serif;
+font-family: sans-serif;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-size-adjust: 1.0;
+font-weight: bold;
+left:
+right:
+center:
+bottom:
+top:
+
+inset: 20px; (useful for nested stuff)
+
+background-color:
+background-image:
+margin: xpx ypx zpx apx: (outside an element)
+margin-left:
+margin-right:
+margin-top:
+margin-bottom:
+height:
+max-height:
+min-height:
+width:
+max-width:
+min-width:
+outline: apx style color;
+padding: xpx ypx zpx apx: (within an element)
+
+text-align: LEFT RIGHT center justify;
+table-layout: auto fixed;
+
+position: static;
+position: absolute;
+position: relative;
+position: sticky;
+
+border-style: none hidden dotted dashed solid
+border-image:
+border-color:
+border-width:
+
+caret-color:
+caption-side:
+
+/* Table */
+table-layout
+row-gap
+
+
+
+
+
+
+
+/* Header CSS */
+.navIconButton {margin: 0px 0px 0px; float: right; padding: 15px; solid: #ffffff;}
+
+.dropMenuName {font-weight: bold; font-size: 1.1em; font-family: Georgia, Times, "Times New Roman", serif; margin: 0px 0px 0px; float: right; padding: 15px; color: #ffffff;}
+.dropMenuName a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.dropMenuName a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.dropMenuName a:hover {text-decoration: none; border-style: none;}
+
+
+.dropDiv {dropdown-divider-bg: #b20818;}
+.dropMenuCat {color: #ffffff;}
+.dropIcon {margin: auto; width: 50%; color: #b20818; padding: 5px;}
+
+
+
+
+.navButton {}
+.headNavBar {}
+
+
+
+/* invisible block that aligns text to the bottom of the div */
+.bottom_aligner {display: inline-block; height: 100%; vertical-align: bottom; width: 0px;}
+
+
+
+font-family:
+font-family: Georgia, Times, "Times New Roman", serif;
+font-family: Georgia, Times, "Times New Roman", serif;
+font-weight: bold;
+font-size: 1.1em;
+margin:
+padding:
+width:
+height:
+font size:
+background:
+
+
+.navbarIcons {display: inline-block; float: right;}
+.s-lib-profile-name {font-size: 1.5em;}
+
+.headNav {padding-right: 10px; list-style-type: none; overflow: hidden; border-style: none; float: center;}
+.headNav a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.headNav a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.headNav a:hover {text-decoration: none; background: #8c1723; border-style: none;}
+.headIcon {}
+
+.navIconButton {margin: 0px 0px 0px; float: right; padding: 15px; solid: #ffffff;}
+.dropMenuName a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.dropMenuName a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.dropMenuName a:hover {text-decoration: none; background: #8c1723; border-style: none;}
+
+
+.dropIcon {margin: auto; width: 50%; color: #b20818; padding: 5px;}
+.dropItem a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.dropItem a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.dropItem a:hover {text-decoration: none; color: #000000; background: #8c1723; border-style: none;}
+
+.navButton {}
+.headNavBar {}
+
+
+
+/* General CSS Formatting */
+code{color:#9B1C3C}
+
+/* Content CSS */
+
+.NCC_accorItem {}
+.NCC_accorHeader {}
+.NCC_accorBody {
+--#{$prefix}accordion-color: #{$accordion-color};
+--#{$prefix}accordion-bg: #{$accordion-bg};
+--#{$prefix}accordion-transition: #{$accordion-transition};
+--#{$prefix}accordion-border-color: #{$accordion-border-color};
+--#{$prefix}accordion-border-width: #{$accordion-border-width};
+--#{$prefix}accordion-border-radius: #{$accordion-border-radius};
+--#{$prefix}accordion-inner-border-radius: #{$accordion-inner-border-radius};
+--#{$prefix}accordion-btn-padding-x: #{$accordion-button-padding-x};
+--#{$prefix}accordion-btn-padding-y: #{$accordion-button-padding-y};
+--#{$prefix}accordion-btn-color: #{$accordion-button-color};
+--#{$prefix}accordion-btn-bg: #{$accordion-button-bg};
+--#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon)};
+--#{$prefix}accordion-btn-icon-width: #{$accordion-icon-width};
+--#{$prefix}accordion-btn-icon-transform: #{$accordion-icon-transform};
+--#{$prefix}accordion-btn-icon-transition: #{$accordion-icon-transition};
+--#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon)};
+--#{$prefix}accordion-btn-focus-border-color: #{$accordion-button-focus-border-color};
+--#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow};
+--#{$prefix}accordion-body-padding-x: #{$accordion-body-padding-x};
+--#{$prefix}accordion-body-padding-y: #{$accordion-body-padding-y};
+--#{$prefix}accordion-active-color: #{$accordion-button-active-color};
+--#{$prefix}accordion-active-bg: #{$accordion-button-active-bg};
+}
+
+.NCC_table {}
+.NCC_tableHeader {}
+.NCC_tableText {}
+.NCC_caption {}
+
+
+.openText {}
+.headerLevel1 {}
+.headerLevel2 {}
+.headerLevel3 {}
+.headerLevel4 {}
+
+
+
+.dropMenuItemText {dropdown-link-color: ; dropdown-link-hover-color: ; dropdown-link-hover-bg: ;}
+
+
+
+
+
+.headNavCat {}
+.headNavSub {}
+.headNavSub a:link { text-align: left; text-decoration: none; color: #ffffff; border-style: none;}
+.headNavSub a:visited {text-decoration: none; color: #ffffff; border-style: none;}
+.headNavSub a:hover {text-decoration: none; background: #8c1723; border-style: none;}
+
+/* Content CSS */
+.NCC_head1 {}
+.NCC_head2 {}
+.NCC_head3 {}
+.NCC_head4 {}
+.NCC_head5 {}
+.NCC_head6 {}
+.NCC_lvl1 {}
+.NCC_lvl2 {}
+.NCC_lvl3 {}
+.accor {
+	accordion-padding-y: 
+	accordion-padding-x: 
+	accordion-color: 
+	accordion-bg: 
+	accordion-border-width: 
+	accordion-border-color: 
+	accordion-border-radius: 
+	accordion-inner-border-radius: 
+	accordion-body-padding-y: 
+	accordion-body-padding-x: 
+	accordion-button-padding-y: 
+	accordion-button-padding-x: 
+	accordion-button-color: 
+	accordion-button-bg: 
+	accordion-transition: 
+	accordion-button-active-bg: 
+	accordion-button-active-color: 
+	accordion-button-focus-border-color: 
+	accordion-icon-width: 
+	accordion-icon-color: 
+	accordion-icon-active-color: 
+	accordion-icon-transform: 
+	accordion-icon-transition: 
+	accordion-button-icon: 
+	accordion-button-active-icon: 
+}
+.NCC_accorChild {
+	accordion-padding-y: 
+	accordion-padding-x: 
+	accordion-color: 
+	accordion-bg: 
+	accordion-border-width: 
+	accordion-border-color: 
+	accordion-border-radius: 
+	accordion-inner-border-radius: 
+	accordion-body-padding-y: 
+	accordion-body-padding-x: 
+	accordion-button-padding-y: 
+	accordion-button-padding-x: 
+	accordion-button-color: 
+	accordion-button-bg: 
+	accordion-transition: 
+	accordion-button-active-bg: 
+	accordion-button-active-color: 
+	accordion-button-focus-border-color: 
+	accordion-icon-width: 
+	accordion-icon-color: 
+	accordion-icon-active-color: 
+	accordion-icon-transform: 
+	accordion-icon-transition: 
+	accordion-button-icon: 
+	accordion-button-active-icon: 
+}
+.NCC_accorText {}
+.NCC_accorChildText {}
+.NCC_email
+.NCC_phone
+.NCC_image {
+centered
+aspect ratio
+height
+width
+}
+.NCC_imageFill {
+centered
+aspect ratio
+height
+width
+}
+.NCC_embedImage {}
+.NCC_embedFilm {}
+.NCC_embedAudio {}
+.NCC_body {}
+.NCC_list1 {}
+.NCC_list2 {}
+
+
+.NCC_button {}
+.NCC_button {}
+.NCC_button {}
+.NCC_button {}
+.NCC_card {}
+.NCC_contactBox {}
+.NCC_warningBar {}
+.NCC_iFrameNorm {
+width
+height
+frameborder
+}
+.NCC_iFrameHalf {
+width
+height
+frameborder
+}
+.NCC_iFrameNormH5P {
+width
+height
+frameborder
+}
+.NCC_iFrameHalfH5P {
+width
+height
+frameborder
+}
+.NCC_emphasisBlock {
+background
+border
+text
+padding
+}
+
+/* invisible block that aligns text to the bottom of the div */
+.bottom_aligner {display: inline-block; height: 100%; vertical-align: bottom; width: 0px;}
+
+#s-lg-guide-name {font-weight: bold; font-size: 1.8em; font-family: Georgia, Times, "Times New Roman", serif;}
+.s-lib-box-title, #s-lg-guide-tabs{font-weight: normal; font-size: 14px; font-family: Georgia, Times, "Times New Roman", serif;}
+#s-lg-guide-description {display: none;}
+#s-lib-bc-site {display: none;}
+
+/* Footer CSS */
+.footerWide { 
+   text-align: left;
+   background-color: #b20818;
+   color: white;
+}
+.footerText {
+   margin: auto;
+   width: 50%;
+   font-weight: bold;
+   font-family: serif;
+   font-size: 1.3em;
+}
+.socialIcons {
+   margin: auto;
+   width: 50%;
+   color: #d9848c;
+   font-size: 2.5em;
+   padding: 5px;
+}   
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://libapps.s3.amazonaws.com/sites/1066/include/cdn.datatables.net_1.13.5_css_jquery.dataTables.min.css">
+
+
+dropdown-item-padding-y: ; dropdown-item-padding-x: ; 
+
+
+
+
+
+color:
+
+background-color:
+border:
+
+text-align: left;
+text-align: right;
+text-align-last: center
+
+text-decoration-line: line-through;
+text-decoration-line: underline;
+text-decoration-line: overline;
+text-decoration-color: red;
+text-decoration-style: solid;
+text-decoration-style: double;
+text-decoration-style: dotted;
+text-decoration-style: dashed;
+text-decoration-style: wavy;
+
+background-color
+background-color
+background-color
+background-color
+border
+border
+border
+border
+border
+border
+width
+width
+width
+width
+height
+height
+height
+height
+margin
+margin
+margin
+margin
+color
+color
+color
+color
+color
+color
+color
+color
+font-size
+font-size
+font-size
+font-size
+padding
+padding
+padding
+padding
+
+font-style: normal;
+font-style: italic;
+font-weight: normal;
+font-weight: bold;
+
+body {
+  font-size: 100%;
+  font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+
+p {
+  font-size: 0.875em;
+}
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
